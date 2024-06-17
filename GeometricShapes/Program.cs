@@ -13,7 +13,7 @@ internal class Program {
 
         Quad q1 = new Quad(3, 4, 5, 6);
         Console.WriteLine($"Perimeter for Quad1 is {q1.Perimeter()}.");
-        Quad q2 = new Quad(7, 8, 9, 10);
+        Quad q2 = new Quad(11, 12, 13, 14);
         Console.WriteLine($"Perimeter for Quad2 is {q2.Perimeter()}.");
 
     }

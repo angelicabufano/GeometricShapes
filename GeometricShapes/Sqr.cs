@@ -5,19 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace GeometricShapes;
-internal class Sqr {
+internal class Sqr : Rect {
 
-    public int Side { get; set; } = 0;
-
-    public int Perimeter() {
-        return 4 * Side;
-    }
-
-    public int Area() {
-        return Side * Side;
-    }
-
-    public Sqr(int side) {
-        Side = side;
+    public Sqr(int side) : base(side,side) {     
     }
 }
